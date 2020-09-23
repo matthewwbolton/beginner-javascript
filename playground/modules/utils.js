@@ -1,10 +1,12 @@
-const last = 'bos';
-const middle = 'slam dunk';
+const last = "bolton";
+
+const middle = "william";
 
 export function returnHi(name) {
-  return `hi ${name} ${last}`;
+  return `hi ${name} ${middle} ${last}`;
 }
-const first = 'wes';
-// NAMED exports - we can have as many as we want
+
+const first = "Matthew";
+
 export { last, middle };
 export default first;
