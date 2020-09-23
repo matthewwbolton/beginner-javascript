@@ -1,7 +1,9 @@
-import first, { returnHi as sayHi, last, middle } from './utils.js';
-import * as everything from './wes.js';
-import { handleButtonClick } from './handlers.js';
+import first, { returnHi, last, middle } from "./utils.js";
+import Matt from "./matt.js";
+import { handleButtonClick } from "./handlers.js";
 
-const button = document.querySelector('button');
+const name = "matt";
 
-button.addEventListener('click', handleButtonClick);
+const button = document.querySelector("button");
+
+button.addEventListener("click", handleButtonClick);
